@@ -1,0 +1,39 @@
+question 1-->> swap two number using 3 variables.
+code-->>  
+                      #include <iostream>
+                      using namespace std;
+                      int main() {
+                         int a,b,c;
+                         cin>>a>>b;
+                         c=a;
+                         a=b;
+                         b=c;
+                         cout<<a<<" "<<b;
+                      }
+
+question 2-->> swap two number without using 3 rd variable.
+code-->>
+                       #include<iostream>
+                       using namespace std;
+                       int main()
+                       { int a,b;
+                       cin>>a>>b;
+                       a=a+b;
+                       b=a-b;
+                       a=a-b;
+                       }
+          
+question 3--> swap three number without using fourt varibale
+code-->>
+ 
+#include<iostream>
+using namespace std;
+int main()
+{ int a,b,c;
+cin>>a>>b>>c;
+a=a+b+c;
+b= a- (b+c);
+c= a- (b+c);
+a= a- (b+c);
+cout<<a<<b<<c;
+)
